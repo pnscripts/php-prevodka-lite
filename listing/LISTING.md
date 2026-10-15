@@ -1,9 +1,9 @@
 # Prevodka Lite: Packagist submission
 
-Nothing has been submitted. Packagist account `PNScripts` already exists. The repository stays private until the coordinator publishes.
+Status 2026-10-15: the repository is **public**, topics set, GitHub release https://github.com/pnscripts/php-prevodka-lite/releases/tag/v1.0.0 (tag `v1.0.0`). Not yet on Packagist (needs a browser sign-in). Packagist account `PNScripts` already exists.
 
-1. Owner/coordinator: make `github.com/pnscripts/php-prevodka-lite` public, push `main` and the tag `v1.0.0` (already tagged locally).
-2. https://packagist.org/packages/submit → repository URL → Check → Submit. Vendor `pnscripts` is already ours.
+1. Done 2026-10-15: repo public, `main` and `v1.0.0` pushed.
+2. In the browser, signed in to Packagist as `PNScripts` (GitHub login): https://packagist.org/packages/submit → repository URL `https://github.com/pnscripts/php-prevodka-lite` → Check → Submit. Vendor `pnscripts` is already ours.
 3. Auto-update: the GitHub hook from the connected Packagist account, or the webhook `https://packagist.org/api/github?username=PNScripts` (JSON, push event).
 4. GitHub repo settings: description = composer description, topics `sepa pain001 iso20022 iban php bulgaria`, social preview `listing/social-preview-1280x640.png`.
 5. On pnscripts.com: Prevodka's product page, "Get it on" → Packagist, edition lite, URL `https://packagist.org/packages/pnscripts/prevodka-lite` once live.
